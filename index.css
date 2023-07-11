@@ -1,0 +1,391 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;;
+}
+.navbaar {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+
+}
+.navbaar .A{
+  flex-shrink: 5;
+}
+.navbaar ul{
+  flex-shrink: 3;
+}
+
+.navbaar ul {
+  display: flex;
+}
+
+.navbaar ul li a img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbaar .A img {
+  width: 60px;
+  height: 20px;
+}
+
+.navbaar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.navbaar ul li a {
+  display: block;
+  padding: 3px 15px;
+  text-decoration: none;
+}
+
+.navbaar ul li a:hover {
+  color: orangered;
+}
+
+.navbaar {
+  background-color: white;
+}
+
+.navbaar ul #login a {
+  background-color: orangered;
+}
+
+.first {
+  background-color: purple;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.first ul {
+  display: flex;
+}
+.first .F{
+  flex-shrink: 6;
+}
+.first .F{
+  flex-shrink: 2;
+}
+
+.first ul li {
+  list-style: none;
+}
+
+.first ul li a {
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
+
+}
+
+.first ul .mid a img {
+  width: 20px;
+  height: 20px;
+}
+
+.first ul .right a {
+  padding: 0px 10px;
+}
+
+.first ul .right a img {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+.first .F input[type=text] {
+  margin-left: 20px;
+  padding-left: 20px;
+  height: 30px;
+
+}
+.first ul .mid a{
+  margin: 20px;
+}
+
+.conatiner {
+  width: 100%;
+  height: auto;
+  background-image: url("image/courses.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  background-color: purple;
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  color: orangered;
+  font-weight: bolder;
+  padding-top: 100px;
+}
+
+#para1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#para2 {
+  text-align: center;
+  font-size: 20px;
+  max-width: 700px;
+  color: white;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.conatiner #btn1 {
+  background-color: brown;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 20px;
+  height: 30px;
+  margin-bottom: 150px;
+}
+
+.conatiner .button {
+  text-align: center;
+}
+
+.conatiner #btn2 {
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 40px;
+  justify-content: space-between;
+
+}
+
+.item {
+  background-color: white;
+  color: black;
+  text-align: center;
+
+}
+
+.items .item figure img {
+  width: 250px;
+  height: 200px;
+}
+
+.items .item figure .fig2 {
+  font-size: 20px;
+}
+
+.items .item figure .fig1 {
+  font-size: 30px;
+}
+
+.boxes .contain figure img {
+  width: 300px;
+  height: 250px;
+}
+
+.boxes {
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 40px;
+  justify-content: space-between;
+
+}
+
+.boxes .contain {
+  border: 2px solid white;
+}
+
+.boxes .contain figure .fig3 {
+  font-size: 20px;
+  color: tomato;
+}
+
+.checked {
+  color: orange;
+}
+
+.courses {
+  display: flex;
+  border-left: 5px;
+  border-right: 5px;
+  border-color: purple;
+  border-width: 5px;
+  flex-flow: row wrap;
+  flex-basis: 50%;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.courses #course1 img {
+  width: 600px;
+  height: 500px;
+}
+
+.courses #course2 {
+  background-color: purple;
+  width: 700px;
+}
+
+.courses #course2 #para5 {
+  color: orangered;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.courses #course2 #para6 {
+  margin-left: 20px;
+  color: white;
+  font-size: 40px;
+  max-width: 500px;
+  font-weight: bold;
+}
+
+.courses #course2 #para7 {
+  max-width: 600px;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.courses #course2 #para8 span {
+  margin-left: 70px;
+  color: white;
+  font-size: 30px;
+}
+
+.courses #course2 #para9 span {
+  margin-left: 30px;
+  color: white;
+  font-size: 30px;
+
+}
+
+.Education {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: purple;
+}
+
+.edu {
+  flex-basis: 300px;
+  margin-top: 100px;
+}
+
+.Education #edu1 #para10 img {
+  width: 30px;
+  height: 20px;
+}
+
+.Education #edu3 img {
+  width: 100px;
+  height: 100px;
+}
+
+.Education #edu3 {
+  display: flex;
+  flex-flow: row, nowrap;
+}
+
+.Education #edu3 .a {
+  flex-basis: 90px;
+
+}
+
+.Education #edu3 .a #a2 {
+  padding-left: 10px;
+}
+
+#para15 {
+  background-color: purple;
+  text-align: center;
+}
+
+.box #para3 {
+  color: orangered;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 120px;
+}
+
+.box #para4 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.abc .category #btn3 {
+  background-color: orangered;
+  text-align: center;
+  margin: 0px auto;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.abc #para16 {
+  text-align: center;
+  color: orangered;
+  margin-top: 50px;
+
+}
+
+.abc .category {
+  text-align: center;
+}
+
+.abc #para17 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+ #btn4 {
+  text-align: center;
+  background-color: orangered;
+  margin-top: 50px;
+  height: 40px;
+  margin: 0px 600px;
+ 
+}
+
+.Education #edu2 ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.Education #edu4 ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.Education #edu1 {
+  font-size: 20px;
+}
+
+.Education #edu3 {
+  font-size: 20px;
+}
+
+.boxes .contain :hover {
+  border: 2px solid white;
+}

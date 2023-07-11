@@ -1,0 +1,90 @@
+
+.navbaar{
+    flex-direction: column;
+}
+.navbaar ul{
+    flex-direction: column;
+}
+.navbaar ul li a{
+    font-size: 20px;
+}
+.first{
+    flex-direction: column;
+}
+.first ul{
+    flex-direction: column;
+}
+.first ul li a{
+    font-size: 20px;
+}
+.items {
+    flex-direction: column;
+}
+
+.items .item {
+    width: 100%;
+}
+
+.boxes {
+    flex-direction: column;
+}
+
+.boxes .contain {
+    width: 100%;
+}
+
+.courses {
+    flex-direction: column;
+}
+
+.courses #course2 {
+    width: 100%;
+
+}
+
+.Edcation {
+    flex-direction: column;
+}
+
+.Education .edu {
+    width: 100%;
+}
+
+.courses #course2 #para8 span {
+    margin-left: 50px;
+}
+
+.courses #course2 #para9 span {
+    margin-left: 10px;
+}
+
+.Education #edu1 {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.Education #edu3 {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.Education #edu3 #a1 {
+    margin-top: 20px;
+}
+
+.Education #edu2 li {
+    font-size: 30px;
+}
+
+.Education #edu4 li {
+    font-size: 30px;
+}
+
+.Education #edu4 #para18 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#para15 {
+    font-size: 20px;
+}
